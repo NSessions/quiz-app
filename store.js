@@ -11,44 +11,44 @@ const STORE = {
             correctAnswer: "Third"
         },
         {
-            question: "",
+            question: "How old is the universe in years?",
             options:[
                 "",
                 "",
                 "",
                 ""
             ],
-            correctAnswer: ""
+            correctAnswer: "13.8 billion years old"
         },
         {
-            question: "",
+            question: "What has a gravitational pull so strong that even light cannot escape it?",
             options:[
                 "",
                 "",
                 "",
                 ""
             ],
-            correctAnswer: ""
+            correctAnswer: "A black hole"
         },
         {
-            question: "",
+            question: "What is the smallest planet in our solar system?",
             options:[
                 "",
                 "",
                 "",
                 ""
             ],
-            correctAnswer: ""
+            correctAnswer: "Mercury"
         },
         {
-            question: "",
+            question: "What is the largest type of star in the universe?",
             options:[
                 "",
                 "",
                 "",
                 ""
             ],
-            correctAnswer: ""
+            correctAnswer: "Red supergiant stars"
         }
     ],
     currentQuestion: 0,
