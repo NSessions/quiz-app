@@ -2,18 +2,23 @@
 <html lang="en">
 
 <head>
+    <title>Space Quiz</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
+    <meta name="description" content="A challenging quiz about space">
     <link rel="stylesheet" href="main.css">
 </head>
 
+<main role="main" class="main-container">
 <body>
-    <header>
-        <h1 class="main-header"> Space Quiz </h1>
+    <header class="main-header">
+        <h1> Space Quiz </h1>
+        <ul class="quiz-trackers">
+            <li class="current-score">Question: <span class="question-num">0</span>/10</li>
+            <li class="current-question">0</li>
+        </ul>
     </header>
 
-    <main role="main" class="main-container"> 
         <section class="start-box box">
             <form  action="index2.html">
                 <fieldset>
@@ -23,7 +28,15 @@
                 </fieldset>
             </form>
         </section>
+
+        <section class="question-box box"></section>
+ 
+        <section class="response-box box"></section>
+
+        <section class="end-box box"></section>
     </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="index.js"></script>
     <script src="store.js"></script>
 </body>

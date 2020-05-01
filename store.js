@@ -53,5 +53,6 @@ const STORE = {
     ],
     currentQuestion: 0,
     currentScore: 0
-
 };
+
+export {STORE};
