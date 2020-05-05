@@ -9,36 +9,37 @@
     <link rel="stylesheet" href="main.css">
 </head>
 
-<main role="main" class="main-container">
+
 <body>
-    <header class="main-header">
-        <h1> Space Quiz </h1>
-        <ul class="quiz-trackers">
-            <li class="current-score">Question: <span class="question-num">0</span>/10</li>
-            <li class="current-question">0</li>
-        </ul>
-    </header>
+    <main role="main" class="main-container">
+        <header class="main-header">
+            <h1> Space Quiz </h1>
+            <ul class="quiz-trackers">
+                <li class="current-score">Question: <span class="question-num">0</span>/10</li>
+                <li class="current-question">0</li>
+            </ul>
+        </header>
 
-        <section class="start-box box">
-            <form  action="index2.html">
-                <fieldset>
-                    <p class="quiz-open-text">The term infinitly expansive is one that can be used to describe not just space, but it also holds true for the knowledge that we have gained from studying space. So, this quiz will test you on how expansive your knowledge of space is.</p>
-                    <span class="quiz-start-prompt">Press the start button to test your knowledge</span>
-                    <button type="submit" class="start-button button">START</button>
-                </fieldset>
-            </form>
-        </section>
+            <section class="start-box box">
+                <form>
+                    <fieldset>
+                        <p class="quiz-open-text">The term infinitly expansive is one that can be used to describe not just space, but it also holds true for the knowledge that we have gained from studying space. So, this quiz will test you on how expansive your knowledge of space is.</p>
+                        <span class="quiz-start-prompt">Press the start button to test your knowledge</span>
+                        <button type="submit" class="start-button button">START</button>
+                    </fieldset>
+                </form>
+            </section>
 
-        <section class="question-box box"></section>
- 
-        <section class="response-box box"></section>
+            <section class="question-box box alt-box"></section>
+    
+            <section class="response-box box alt-box"></section>
 
-        <section class="end-box box"></section>
+            <section class="end-box box alt-box"></section>
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="index.js"></script>
     <script src="store.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

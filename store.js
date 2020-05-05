@@ -1,4 +1,4 @@
-const STORE = {
+ const STORE = {
     questions: [
         {
             question: "In our solar system, what place is Earth in terms of distance from the Sun?",
@@ -53,6 +53,4 @@ const STORE = {
     ],
     currentQuestion: 0,
     currentScore: 0
-};
-
-export {STORE};
+}

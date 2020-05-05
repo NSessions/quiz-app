@@ -28,6 +28,7 @@ body{
 }
 
 .box{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,6 +40,10 @@ body{
     height: 95%;
     text-align: center;
     background-color: rgb(255, 250, 250, 0.8);
+}
+
+.hidden{
+    display: none;
 }
 
 fieldset{
@@ -79,7 +84,7 @@ legend{
     margin: 15% auto 5px auto;
 }
 
-.answer-label{
+.option-label{
     display: inline-block;
     padding: 0.3em;
 }
